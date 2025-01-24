@@ -1,0 +1,140 @@
+/* Mission Section */
+.mission-section {
+    max-width: 1200px;
+    width: 90%;
+    margin: 40px auto;
+    padding: 40px 24px;
+    background: #070c15;
+    border: 1px solid #0b1423;
+    border-radius: 10px;
+  }
+  
+  .mission-title {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  
+  .mission-content p {
+    color: #f3f4f6;
+    font-size: 0.875rem;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  
+  /* Hobbies Section */
+  .hobbies-section {
+    max-width: 1200px;
+    width: 90%;
+    margin: 40px auto;
+    padding: 40px 24px;
+    background: #070c15;
+    border: 1px solid #0b1423;
+    border-radius: 10px;
+  }
+  
+  .hobbies-title {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  
+  .hobbies-content p {
+    color: #f3f4f6;
+    font-size: 0.875rem;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  
+
+ 
+/* Testimonials Section */
+.testimonials-section {
+  padding: 50px 20px;
+  /* background-color: #fff; */
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+/* Testimonials Grid */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Testimonial Card */
+.testimonial-card {
+  background: #070c15;
+  border: 1px solid #0b1423;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.avatar {
+  margin-bottom: 15px;
+}
+
+.avatar img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+
+.user-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.user-title {
+  font-size: 0.9em;
+  color: #eee;
+  margin-bottom: 15px;
+}
+
+.testimonial-text {
+  font-size: 1em;
+  color: #e6e4e4;
+  margin-bottom: 15px;
+}
+
+.rating {
+  font-size: 1.2em;
+  color: #ffcc00;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.8em;
+  }
+
+  .testimonial-card {
+    padding: 15px;
+  }
+}
